@@ -24,5 +24,6 @@ public class RozetkaRegistration {
 	driver.findElement(By.xpath("//*[@id='signup_form']/div[2]/input")).sendKeys(email);
 	driver.findElement(By.xpath("//*[@id='signup_form']/div[3]/input")).sendKeys("123456qwerty");
 	driver.findElement(By.xpath("//*[@id='signup_form']/div[@class='signup-submit']/span/button")).click();
+	driver.quit();
 }
 }
